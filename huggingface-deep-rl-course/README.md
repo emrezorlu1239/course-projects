@@ -26,8 +26,6 @@ Score = `mean_reward − std_reward` over the evaluation episodes, as computed b
 | 8.1 | LunarLander-v2 | PPO from scratch (CleanRL style) | 110.16 ± 88.62 | **21.54** | −500 | [ppo-scratch-LunarLander-v2](https://huggingface.co/Zorlu5454/ppo-scratch-LunarLander-v2) |
 | 8.2 | ViZDoom Health Gathering Supreme | APPO (Sample Factory) | 10.34 ± 1.45 | **8.89** | 5 | [rl_course_vizdoom_doom_health_gathering_supreme](https://huggingface.co/Zorlu5454/rl_course_vizdoom_doom_health_gathering_supreme) |
 
-Official checker output: [`results/certification_checker.png`](results/certification_checker.png)
-
 ## Notebooks
 
 | Notebook | What it covers | Runtime |
