@@ -14,8 +14,7 @@ course-projects/
 └── huggingface-deep-rl-course/
     ├── README.md        # results, engineering notes, key concepts
     ├── notebooks/       # one notebook per assignment
-    ├── results/         # evaluation summary and certification checker output
-    └── certificate/     # certificate (PDF + PNG)
+    └── certificate/     # certificate
 ```
 
 New courses are added as sibling folders.
