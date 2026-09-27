@@ -1,0 +1,8 @@
+# Optional CUDA Transformers backend; LM Studio does not need these packages.
+-r requirements.txt
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.8.0+cu128
+transformers==5.16.1
+accelerate==1.14.0
+bitsandbytes==0.50.2
+safetensors==0.8.0

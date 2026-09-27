@@ -1,0 +1,279 @@
+{
+  "model": "qwen3.5-9b",
+  "created_at": "2026-09-17T18:12:19.093618+00:00",
+  "questions": 20,
+  "answered": 11,
+  "results": [
+    {
+      "task_id": "1f975693-876d-457b-a649-393859e79bf3",
+      "question": "Hi, I was out sick from my classes on Friday, so I'm trying to figure out what I need to study for my Calculus mid-term next week. My friend from class sent me an audio recording o",
+      "answer": "UNKNOWN",
+      "answered": false,
+      "tools": [
+        "read_attachment"
+      ],
+      "seconds": 7.8,
+      "error": ""
+    },
+    {
+      "task_id": "2d83110e-a098-4ebb-9987-066c06fa42d0",
+      "question": ".rewsna eht sa \"tfel\" drow eht fo etisoppo eht etirw ,ecnetnes siht dnatsrednu uoy fI",
+      "answer": "right",
+      "answered": true,
+      "tools": [],
+      "seconds": 2.6,
+      "error": ""
+    },
+    {
+      "task_id": "305ac316-eef6-4446-960a-92d80d542f82",
+      "question": "Who did the actor who played Ray in the Polish-language version of Everybody Loves Raymond play in Magda M.? Give only the first name.",
+      "answer": "Wojciech",
+      "answered": true,
+      "tools": [
+        "search_web",
+        "read_url",
+        "search_web",
+        "read_url",
+        "search_web"
+      ],
+      "seconds": 35.1,
+      "error": ""
+    },
+    {
+      "task_id": "3cef3a44-215e-4aed-8e3b-b1e3f08063b7",
+      "question": "I'm making a grocery list for my mom, but she's a professor of botany and she's a real stickler when it comes to categorizing things. I need to add different foods to different cat",
+      "answer": "broccoli, celery, fresh basil, lettuce, sweet potatoes",
+      "answered": true,
+      "tools": [
+        "calculate",
+        "calculate"
+      ],
+      "seconds": 27.4,
+      "error": ""
+    },
+    {
+      "task_id": "3f57289b-8c60-48be-bd80-01f8099ca449",
+      "question": "How many at bats did the Yankee with the most walks in the 1977 regular season have that same season?",
+      "answer": "519",
+      "answered": true,
+      "tools": [
+        "search_web",
+        "read_url",
+        "search_web"
+      ],
+      "seconds": 14.6,
+      "error": ""
+    },
+    {
+      "task_id": "4fc2f1ae-8625-45b5-ab34-ad4433bc21f8",
+      "question": "Who nominated the only Featured Article on English Wikipedia about a dinosaur that was promoted in November 2016?",
+      "answer": "FunkMonk",
+      "answered": true,
+      "tools": [
+        "search_web",
+        "read_url",
+        "read_url"
+      ],
+      "seconds": 15.0,
+      "error": ""
+    },
+    {
+      "task_id": "5a0c1adf-205e-4841-a666-7c3ef95def9d",
+      "question": "What is the first name of the only Malko Competition recipient from the 20th Century (after 1977) whose nationality on record is a country that no longer exists?",
+      "answer": "Mikhail",
+      "answered": true,
+      "tools": [
+        "search_web",
+        "read_url",
+        "search_web",
+        "search_web",
+        "search_web",
+        "search_web",
+        "search_web"
+      ],
+      "seconds": 132.0,
+      "error": ""
+    },
+    {
+      "task_id": "6f37996b-2ac7-44b0-8e68-6d28256631b4",
+      "question": "Given this table defining * on the set S = {a, b, c, d, e}\n\n|*|a|b|c|d|e|\n|---|---|---|---|---|---|\n|a|a|b|c|b|d|\n|b|b|c|a|e|c|\n|c|c|a|b|b|a|\n|d|b|e|b|e|d|\n|e|d|b|a|d|c|\n\nprovide t",
+      "answer": "b,e",
+      "answered": true,
+      "tools": [],
+      "seconds": 19.6,
+      "error": ""
+    },
+    {
+      "task_id": "7bd855d8-463d-4ed5-93ca-5fe35145f733",
+      "question": "The attached Excel file contains the sales of menu items for a local fast-food chain. What were the total sales that the chain made from food (not including drinks)? Express your a",
+      "answer": "UNKNOWN",
+      "answered": false,
+      "tools": [
+        "read_attachment"
+      ],
+      "seconds": 4.9,
+      "error": ""
+    },
+    {
+      "task_id": "840bfca7-4f7b-481a-8794-c560c340185d",
+      "question": "On June 6, 2023, an article by Carolyn Collins Petersen was published in Universe Today. This article mentions a team that produced a paper about their observations, linked at the ",
+      "answer": "UNKNOWN",
+      "answered": false,
+      "tools": [
+        "search_web",
+        "read_url",
+        "read_url",
+        "search_web",
+        "search_web",
+        "read_url",
+        "search_web"
+      ],
+      "seconds": 44.5,
+      "error": ""
+    },
+    {
+      "task_id": "8e867cd7-cff9-4e6c-867a-ff5ddc2550be",
+      "question": "How many studio albums were published by Mercedes Sosa between 2000 and 2009 (included)? You can use the latest 2022 version of english wikipedia.",
+      "answer": "3",
+      "answered": true,
+      "tools": [
+        "search_web",
+        "read_url",
+        "search_web",
+        "read_url",
+        "search_web",
+        "read_url",
+        "search_web"
+      ],
+      "seconds": 55.0,
+      "error": ""
+    },
+    {
+      "task_id": "99c9cc74-fdc8-46c6-8f8d-3ce2d3bfeea3",
+      "question": "Hi, I'm making a pie but I could use some help with my shopping list. I have everything I need for the crust, but I'm not sure about the filling. I got the recipe from my friend Ad",
+      "answer": "UNKNOWN",
+      "answered": false,
+      "tools": [
+        "read_attachment"
+      ],
+      "seconds": 6.7,
+      "error": ""
+    },
+    {
+      "task_id": "9d191bce-651d-4746-be2d-7ef8ecadb9c2",
+      "question": "Examine the video at https://www.youtube.com/watch?v=1htKBjuUWec.\n\nWhat does Teal'c say in response to the question \"Isn't that hot?\"",
+      "answer": "UNKNOWN",
+      "answered": false,
+      "tools": [
+        "read_url"
+      ],
+      "seconds": 5.8,
+      "error": ""
+    },
+    {
+      "task_id": "a0c07678-e491-4bbc-8f0b-07405144218f",
+      "question": "Who are the pitchers with the number before and after Taishō Tamai's number as of July 2023? Give them to me in the form Pitcher Before, Pitcher After, use their last names only, i",
+      "answer": "Yamasaki, Uehara",
+      "answered": true,
+      "tools": [
+        "search_web",
+        "read_url",
+        "search_web",
+        "search_web",
+        "search_web",
+        "search_web",
+        "search_web"
+      ],
+      "seconds": 98.3,
+      "error": ""
+    },
+    {
+      "task_id": "a1e91b78-d3d8-4675-bb8d-62741b4b68a6",
+      "question": "In the video https://www.youtube.com/watch?v=L1vXCYZAYYM, what is the highest number of bird species to be on camera simultaneously?",
+      "answer": "UNKNOWN",
+      "answered": false,
+      "tools": [
+        "read_url"
+      ],
+      "seconds": 7.7,
+      "error": ""
+    },
+    {
+      "task_id": "bda648d7-d618-4883-88f4-3466eabd860e",
+      "question": "Where were the Vietnamese specimens described by Kuznetzov in Nedoshivina's 2010 paper eventually deposited? Just give me the city name without abbreviations.",
+      "answer": "St. Petersburg",
+      "answered": true,
+      "tools": [
+        "search_web",
+        "search_web"
+      ],
+      "seconds": 30.9,
+      "error": ""
+    },
+    {
+      "task_id": "cabe07ed-9eca-40ea-8ead-410ef5e83f91",
+      "question": "What is the surname of the equine veterinarian mentioned in 1.E Exercises from the chemistry materials licensed by Marisa Alviar-Agnew & Henry Agnew under the CK-12 license in Libr",
+      "answer": "UNKNOWN",
+      "answered": false,
+      "tools": [
+        "search_web",
+        "read_url",
+        "read_url",
+        "search_web",
+        "search_web",
+        "read_url",
+        "search_web"
+      ],
+      "seconds": 54.9,
+      "error": ""
+    },
+    {
+      "task_id": "cca530fc-4052-43b2-b130-b30968d8aa44",
+      "question": "Review the chess position provided in the image. It is black's turn. Provide the correct next move for black which guarantees a win. Please provide your response in algebraic notat",
+      "answer": "UNKNOWN",
+      "answered": false,
+      "tools": [
+        "read_attachment",
+        "search_web"
+      ],
+      "seconds": 9.8,
+      "error": ""
+    },
+    {
+      "task_id": "cf106601-ab4f-4af9-b045-5295fe67b37d",
+      "question": "What country had the least number of athletes at the 1928 Summer Olympics? If there's a tie for a number of athletes, return the first in alphabetical order. Give the IOC country c",
+      "answer": "CUB",
+      "answered": true,
+      "tools": [
+        "search_web",
+        "read_url"
+      ],
+      "seconds": 32.4,
+      "error": ""
+    },
+    {
+      "task_id": "f918266a-b3e0-4914-865d-4faa564f1aef",
+      "question": "What is the final numeric output from the attached Python code?",
+      "answer": "UNKNOWN",
+      "answered": false,
+      "tools": [
+        "read_attachment"
+      ],
+      "seconds": 4.7,
+      "error": ""
+    }
+  ],
+  "submission": {
+    "submitted_at": "2026-09-17T18:33:10.314024+00:00",
+    "run_sha256": "23a28cad625f256491848d009d59ba086a4cec5210b43396aada9cd3cf86fa99",
+    "result": {
+      "username": "Zorlu5454",
+      "score": 35.0,
+      "correct_count": 7,
+      "total_attempted": 20,
+      "message": "Score calculated successfully: 7/20 total questions answered correctly (20 valid tasks attempted). High score updated on leaderboard.",
+      "timestamp": "2026-09-17T18:33:10.461107+00:00"
+    },
+    "agent_code": "https://huggingface.co/spaces/Zorlu5454/atlas-research-agent/tree/main"
+  }
+}
