@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Training artifacts (models live on the Hugging Face Hub)
+runs/
+train_dir/
+training-envs-executables/
+*.pt
+*.pth
+*.onnx
+*.zip
+*.mp4
+*.pkl
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets
+.env
+*.token
