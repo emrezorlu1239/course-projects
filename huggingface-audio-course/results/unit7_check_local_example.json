@@ -1,0 +1,30 @@
+{
+  "space": "http://127.0.0.1:7860/",
+  "input": "example.wav",
+  "latency_s": 7.87,
+  "output_seconds": 8.38,
+  "sampling_rate": 16000,
+  "language_id_top5": [
+    {
+      "score": 0.99994957447052,
+      "label": "tur"
+    },
+    {
+      "score": 4.505902325036004e-06,
+      "label": "mal"
+    },
+    {
+      "score": 3.358746425874415e-06,
+      "label": "sin"
+    },
+    {
+      "score": 3.3234582588193007e-06,
+      "label": "srp"
+    },
+    {
+      "score": 2.3661139039177215e-06,
+      "label": "tat"
+    }
+  ],
+  "passes_assessor_check": true
+}

@@ -1,0 +1,235 @@
+{
+  "run_name": "lr5e-5_ep10_ls0.1",
+  "model_id": "MIT/ast-finetuned-audioset-10-10-0.4593",
+  "args": {
+    "run_name": "lr5e-5_ep10_ls0.1",
+    "lr": 5e-05,
+    "epochs": 10.0,
+    "batch_size": 8,
+    "grad_accum": 2,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "label_smoothing": 0.1,
+    "val_size": 0.15,
+    "seed": 42,
+    "no_augment": false,
+    "grad_ckpt": false,
+    "max_steps": -1
+  },
+  "n_train_chunks": 2547,
+  "n_val_chunks": 450,
+  "n_val_clips": 150,
+  "eval_accuracy_chunk": 0.8888888888888888,
+  "eval_loss": 0.8200405836105347,
+  "eval_accuracy_clip": 0.9066666666666666,
+  "best_checkpoint": "C:\\Dev\\audio-course\\unit4_genre_classifier\\outputs\\lr5e-5_ep10_ls0.1\\checkpoint-1600",
+  "confusion_matrix": [
+    [
+      42,
+      0,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      44,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      44,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      35,
+      6,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      42,
+      0,
+      0,
+      3,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      45,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      43,
+      0,
+      0,
+      2
+    ],
+    [
+      0,
+      0,
+      3,
+      2,
+      3,
+      0,
+      0,
+      37,
+      0,
+      0
+    ],
+    [
+      3,
+      0,
+      0,
+      0,
+      4,
+      2,
+      0,
+      0,
+      36,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      2,
+      0,
+      1,
+      2,
+      4,
+      0,
+      32
+    ]
+  ],
+  "label_names": [
+    "blues",
+    "classical",
+    "country",
+    "disco",
+    "hiphop",
+    "jazz",
+    "metal",
+    "pop",
+    "reggae",
+    "rock"
+  ],
+  "classification_report": {
+    "blues": {
+      "precision": 0.9130434782608695,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.9230769230769231,
+      "support": 45.0
+    },
+    "classical": {
+      "precision": 1.0,
+      "recall": 0.9777777777777777,
+      "f1-score": 0.9887640449438202,
+      "support": 45.0
+    },
+    "country": {
+      "precision": 0.8301886792452831,
+      "recall": 0.9777777777777777,
+      "f1-score": 0.8979591836734694,
+      "support": 45.0
+    },
+    "disco": {
+      "precision": 0.875,
+      "recall": 0.7777777777777778,
+      "f1-score": 0.8235294117647058,
+      "support": 45.0
+    },
+    "hiphop": {
+      "precision": 0.7636363636363637,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.84,
+      "support": 45.0
+    },
+    "jazz": {
+      "precision": 0.9183673469387755,
+      "recall": 1.0,
+      "f1-score": 0.9574468085106383,
+      "support": 45.0
+    },
+    "metal": {
+      "precision": 0.9555555555555556,
+      "recall": 0.9555555555555556,
+      "f1-score": 0.9555555555555556,
+      "support": 45.0
+    },
+    "pop": {
+      "precision": 0.7708333333333334,
+      "recall": 0.8222222222222222,
+      "f1-score": 0.7956989247311828,
+      "support": 45.0
+    },
+    "reggae": {
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1-score": 0.8888888888888888,
+      "support": 45.0
+    },
+    "rock": {
+      "precision": 0.9411764705882353,
+      "recall": 0.7111111111111111,
+      "f1-score": 0.810126582278481,
+      "support": 45.0
+    },
+    "accuracy": 0.8888888888888888,
+    "macro avg": {
+      "precision": 0.8967801227558416,
+      "recall": 0.888888888888889,
+      "f1-score": 0.8881046323423666,
+      "support": 450.0
+    },
+    "weighted avg": {
+      "precision": 0.8967801227558416,
+      "recall": 0.8888888888888888,
+      "f1-score": 0.8881046323423666,
+      "support": 450.0
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "run_name": "nl_s4000",
+  "model_id": "microsoft/speecht5_tts",
+  "args": {
+    "run_name": "nl_s4000",
+    "lr": 1e-05,
+    "max_steps": 4000,
+    "warmup_steps": 500,
+    "batch_size": 4,
+    "grad_accum": 8,
+    "eval_steps": 1000,
+    "seed": 42
+  },
+  "n_train": 7433,
+  "n_test": 826,
+  "best_checkpoint": "C:\\Dev\\audio-course\\unit6_speecht5_tts\\outputs\\nl_s4000\\checkpoint-4000",
+  "eval_loss": 0.4594777524471283,
+  "history": [
+    {
+      "eval_loss": 0.4794822037220001,
+      "eval_runtime": 20.9198,
+      "eval_samples_per_second": 39.484,
+      "eval_steps_per_second": 19.742,
+      "epoch": 4.2926304464766005,
+      "step": 1000
+    },
+    {
+      "eval_loss": 0.46562933921813965,
+      "eval_runtime": 18.556,
+      "eval_samples_per_second": 44.514,
+      "eval_steps_per_second": 22.257,
+      "epoch": 8.585260892953201,
+      "step": 2000
+    },
+    {
+      "eval_loss": 0.4611045718193054,
+      "eval_runtime": 29.8208,
+      "eval_samples_per_second": 27.699,
+      "eval_steps_per_second": 13.849,
+      "epoch": 12.877891339429802,
+      "step": 3000
+    },
+    {
+      "eval_loss": 0.45959776639938354,
+      "eval_runtime": 18.512,
+      "eval_samples_per_second": 44.62,
+      "eval_steps_per_second": 22.31,
+      "epoch": 17.167832167832167,
+      "step": 4000
+    },
+    {
+      "eval_loss": 0.4594777524471283,
+      "eval_runtime": 17.5446,
+      "eval_samples_per_second": 47.08,
+      "eval_steps_per_second": 23.54,
+      "epoch": 17.167832167832167,
+      "step": 4000
+    }
+  ],
+  "samples": [
+    {
+      "text": "hallo allemaal, ik praat nederlands. groetjes aan iedereen!",
+      "file": "unit6_sample_nl_s4000_0.wav",
+      "seconds": 3.9,
+      "whisper_base_nl_transcript": "Hallo allemaal. Ik ben het Nederlands, goedjes aan iedereen."
+    },
+    {
+      "text": "het europees parlement vergadert vandaag in straatsburg over het nieuwe klimaatbeleid.",
+      "file": "unit6_sample_nl_s4000_1.wav",
+      "seconds": 5.66,
+      "whisper_base_nl_transcript": "Het opeest parlement, we gaan het vandaag in Stadsburg over het nieuwe klimaatbedrijf."
+    }
+  ],
+  "intelligibility_check": "samples re-transcribed with openai/whisper-base (language=dutch)"
+}

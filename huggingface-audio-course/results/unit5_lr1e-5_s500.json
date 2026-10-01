@@ -1,0 +1,92 @@
+{
+  "run_name": "lr1e-5_s500",
+  "model_id": "openai/whisper-tiny",
+  "args": {
+    "run_name": "lr1e-5_s500",
+    "lr": 1e-05,
+    "max_steps": 500,
+    "warmup_steps": 50,
+    "batch_size": 16,
+    "grad_accum": 1,
+    "eval_steps": 100,
+    "seed": 42
+  },
+  "n_train": 445,
+  "n_eval": 113,
+  "zero_shot": {
+    "wer": 0.4014167650531287,
+    "wer_ortho": 0.5416409623689081
+  },
+  "best_checkpoint": "C:\\Dev\\audio-course\\unit5_whisper_finetune\\outputs\\lr1e-5_s500\\checkpoint-400",
+  "eval_wer": 0.2939787485242031,
+  "eval_wer_ortho": 0.2887106724244294,
+  "eval_loss": 0.6415603160858154,
+  "history": [
+    {
+      "eval_loss": 0.5061765313148499,
+      "eval_model_preparation_time": 0.0015,
+      "eval_wer_ortho": 0.297347316471314,
+      "eval_wer": 0.3022432113341204,
+      "eval_runtime": 5.5589,
+      "eval_samples_per_second": 20.328,
+      "eval_steps_per_second": 1.439,
+      "epoch": 3.571428571428571,
+      "step": 100
+    },
+    {
+      "eval_loss": 0.5723907351493835,
+      "eval_model_preparation_time": 0.0015,
+      "eval_wer_ortho": 0.30598396051819865,
+      "eval_wer": 0.30991735537190085,
+      "eval_runtime": 5.6185,
+      "eval_samples_per_second": 20.112,
+      "eval_steps_per_second": 1.424,
+      "epoch": 7.142857142857143,
+      "step": 200
+    },
+    {
+      "eval_loss": 0.6270785927772522,
+      "eval_model_preparation_time": 0.0015,
+      "eval_wer_ortho": 0.310919185687847,
+      "eval_wer": 0.31582054309327035,
+      "eval_runtime": 6.204,
+      "eval_samples_per_second": 18.214,
+      "eval_steps_per_second": 1.289,
+      "epoch": 10.714285714285714,
+      "step": 300
+    },
+    {
+      "eval_loss": 0.6416400074958801,
+      "eval_model_preparation_time": 0.0015,
+      "eval_wer_ortho": 0.2887106724244294,
+      "eval_wer": 0.29456906729634,
+      "eval_runtime": 5.3553,
+      "eval_samples_per_second": 21.1,
+      "eval_steps_per_second": 1.494,
+      "epoch": 14.285714285714286,
+      "step": 400
+    },
+    {
+      "eval_loss": 0.6474640965461731,
+      "eval_model_preparation_time": 0.0015,
+      "eval_wer_ortho": 0.2899444787168415,
+      "eval_wer": 0.29634002361275086,
+      "eval_runtime": 5.7671,
+      "eval_samples_per_second": 19.594,
+      "eval_steps_per_second": 1.387,
+      "epoch": 17.857142857142858,
+      "step": 500
+    },
+    {
+      "eval_loss": 0.6415603160858154,
+      "eval_model_preparation_time": 0.0015,
+      "eval_wer_ortho": 0.2887106724244294,
+      "eval_wer": 0.2939787485242031,
+      "eval_runtime": 6.5231,
+      "eval_samples_per_second": 17.323,
+      "eval_steps_per_second": 1.226,
+      "epoch": 17.857142857142858,
+      "step": 500
+    }
+  ]
+}
